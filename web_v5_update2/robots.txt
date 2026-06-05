@@ -1,0 +1,221 @@
+# ═══════════════════════════════════════════════════
+# SUFIAN & SAFINA LOGISTICS BD — robots.txt v4.0
+# Domain: https://snslogisticsbd.com
+# Updated: 2026-06-03
+# v4.0: Added /css/, /js/, /favicons/ directories.
+#       Explicit Allow for all crawlers on all assets.
+#       Critical fix: Google must be able to fetch CSS/JS
+#       to render pages correctly for indexing.
+# ═══════════════════════════════════════════════════
+
+# ── ALL CRAWLERS: DEFAULT RULES ─────────────────────
+User-agent: *
+Allow: /
+
+# ── PAGES ───────────────────────────────────────────
+Allow: /index.html
+Allow: /acquabounty.html
+Allow: /tropiqharvest.html
+Allow: /services.html
+Allow: /about.html
+
+# ── /css/, /js/, /favicons/, /data/ directories ────
+# Critical: Google must fetch CSS/JS to render pages.
+Allow: /css/
+Allow: /css/shared.css
+
+Allow: /js/
+Allow: /js/shared.js
+Allow: /js/catalog.js
+
+Allow: /favicons/
+Allow: /favicons/favicon.svg
+Allow: /favicons/favicon-32.png
+Allow: /favicons/favicon-16.png
+Allow: /favicons/apple-touch-icon.png
+
+Allow: /data/
+Allow: /data/fish.json
+Allow: /data/fruits.json
+
+# ── IMAGE DIRECTORIES ───────────────────────────────
+# Subdirectory structure preserved exactly as-is.
+Allow: /images/
+Allow: /images/fish/
+Allow: /images/fish/fresh_water/
+Allow: /images/fish/sea_water/
+Allow: /images/fish/dry_fish/
+Allow: /images/fish/ready_to_cook/
+Allow: /images/fruits/
+Allow: /images/fruits/mango/
+Allow: /images/fruits/tropical/
+Allow: /images/team/
+
+# ── ROOT STATIC ASSETS ──────────────────────────────
+Allow: /logo.png
+Allow: /og-image.jpg
+Allow: /site.webmanifest
+Allow: /sitemap.xml
+
+# ── DISALLOW INTERNAL PATHS ─────────────────────────
+Disallow: /api/
+Disallow: /api/inquiry
+Disallow: /_worker.js
+Disallow: /_headers
+Disallow: /_redirects
+
+Crawl-delay: 5
+
+
+# ── GOOGLE ──────────────────────────────────────────
+User-agent: Googlebot
+Allow: /
+Allow: /css/
+Allow: /js/
+Allow: /favicons/
+Allow: /data/
+Allow: /images/
+Disallow: /api/
+
+User-agent: Googlebot-Image
+Allow: /images/
+Allow: /logo.png
+Allow: /og-image.jpg
+
+User-agent: Googlebot-Video
+Disallow: /
+
+User-agent: Google-InspectionTool
+Allow: /
+
+
+# ── BING / MICROSOFT ────────────────────────────────
+User-agent: Bingbot
+Allow: /
+Disallow: /api/
+
+User-agent: MSNBot
+Allow: /
+Disallow: /api/
+
+
+# ── YANDEX ──────────────────────────────────────────
+User-agent: YandexBot
+Allow: /
+Disallow: /api/
+Crawl-delay: 3
+
+User-agent: YandexImages
+Allow: /images/
+Allow: /logo.png
+
+
+# ── BAIDU ───────────────────────────────────────────
+User-agent: Baiduspider
+Allow: /
+Disallow: /api/
+Crawl-delay: 5
+
+User-agent: Baiduspider-image
+Allow: /images/
+Allow: /logo.png
+
+
+# ── DUCKDUCKGO / APPLE ──────────────────────────────
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+Disallow: /api/
+
+
+# ── AI CRAWLERS — EXPLICITLY WELCOMED ───────────────
+User-agent: GPTBot
+Allow: /
+Crawl-delay: 5
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+Crawl-delay: 5
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+Crawl-delay: 3
+
+User-agent: Grok
+Allow: /
+
+User-agent: ia_archiver
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: omgili
+Allow: /
+
+
+# ── SEO TOOLS ───────────────────────────────────────
+User-agent: AhrefsBot
+Allow: /
+
+User-agent: SemrushBot
+Allow: /
+
+User-agent: DotBot
+Allow: /
+
+User-agent: MJ12bot
+Allow: /
+
+User-agent: rogerbot
+Allow: /
+
+
+# ── BLOCKED — KNOWN BAD ACTORS ──────────────────────
+User-agent: SiteCheckBot
+Disallow: /
+
+User-agent: DataForSeoBot
+Disallow: /
+
+User-agent: PetalBot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: SeznamBot
+Disallow: /
+
+User-agent: 360Spider
+Disallow: /
+
+User-agent: Sogou
+Disallow: /
+
+User-agent: ltx71
+Disallow: /
+
+User-agent: Buck
+Disallow: /
+
+User-agent: serpstatbot
+Disallow: /
+
+
+# ── SITEMAP ─────────────────────────────────────────
+Sitemap: https://snslogisticsbd.com/sitemap.xml
