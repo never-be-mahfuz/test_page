@@ -4,5 +4,4 @@
 <hr>
 [Expansion SOP](https://github.com/never-be-mahfuz/test_page/blob/main/EXPANSION_SOP.md)
 
-[Expansion SOP >>>](https://github.com/never-be-mahfuz/test_page/blob/main/EXPANSION_SOP)
-
+<a href="https://github.com/never-be-mahfuz/test_page/blob/main/EXPANSION_SOP.md" target="_blank">Expansion SOP >>> </a>
