@@ -13,16 +13,16 @@
   <tr>
     <td>Web V4</td>
     <th></th>
-    <th>[Version 04](https://never-be-mahfuz.github.io/test_page/v4/)</th>
+    <th><a href="https://never-be-mahfuz.github.io/test_page/v4/">Version 04</a></th>
   </tr>
   <tr>
     <td>Web v5</td>
     <th></th>
-    <th>[Version 05](https://never-be-mahfuz.github.io/test_page/v5/)</th>
+    <th><a href="https://never-be-mahfuz.github.io/test_page/v5/">Version 05</a></th>
   </tr>
   <tr>
     <td>Web v5.1</td>
     <th></th>
-    <th>[Version 05_update](https://never-be-mahfuz.github.io/test_page/web_v5_update2/</th>
+    <th><a href="https://never-be-mahfuz.github.io/test_page/web_v5_update2/">Version 05_update</a></th>
   </tr>
 </table>
